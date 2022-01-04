@@ -1,0 +1,1 @@
+-   check 'collections' directory in the root of the project for specifics on db schemas

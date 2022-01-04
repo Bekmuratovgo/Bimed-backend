@@ -1,0 +1,4 @@
+2021-10-12 18:12:48:1248 [31merror[39m: [31m[method: "GET"] [path: "/api/auth"] [status code: 401]  [error: "you are not authenticated"][39m
+2021-10-13 17:37:30:3730 [31merror[39m: [31m[method: "GET"] [path: "/api/auth"] [status code: 401]  [error: "you are not authenticated"][39m
+2021-10-14 11:25:19:2519 [31merror[39m: [31m1C:INTEGRATION:DIALY CYCLE: 14.10.2021, 11:25:18[39m
+2021-10-14 11:25:26:2526 [31merror[39m: [31m1C:INTEGRATION:ERROR: ENOENT: no such file or directory, open 'C:\Users\nurbe\OneDrive\Рабочий стол\asd-back\private\1c-integration\medicines.xlsx'[39m

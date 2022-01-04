@@ -1,0 +1,65 @@
+{
+  "port": 8080,
+  "db": {
+    "bimed": {
+      "production": {
+        "local": "mongodb://localhost:27017/bimed",
+        "atlas": "mongodb+srv://main_bimed_backend:xNLaR6ti2bMTw08K@cluster0.xeund.mongodb.net/bimed?retryWrites=true&w=majority",
+        "atlas:old": "mongodb+srv://root:JsvGsZmCAziVCiG5@bimed-cluster.mpd6t.mongodb.net/bimed"
+      },
+      "test": {
+        "local": "mongodb://localhost:27017/bimed_test",
+        "atlas": "mongodb+srv://main_bimed_backend:xNLaR6ti2bMTw08K@cluster0.xeund.mongodb.net/bimed_test?retryWrites=true&w=majority"
+      }
+    }
+  },
+  "secret": "Fg&H8h~3IO&9kI*J38t$2R0bJ(3Om29l{0R[qUO?3Pw.920tDMCuLS;xAPWK#%%dI@Ed9]",
+  "minio": {
+    "mode": "test",
+    "production": {
+      "bucket": {
+        "region": "eu-central-1",
+        "url": "storage.kdelinx.me",
+        "port": null,
+        "ssl": false,
+        "keys": {
+          "access": "BRcBzfYLya6CA0QjiHPs",
+          "secret": "7bFa486gr3brgxOPhCBFYbPZClq5WJJiUoQygiLi"
+        },
+        "buckets": {
+          "bimed": {
+            "name": "bimed-media"
+          }
+        }
+      }
+    },
+    "test": {
+      "bucket": {
+        "region": "eu-central-1",
+        "url": "play.minio.io",
+        "port": 9000,
+        "ssl": true,
+        "keys": {
+          "access": "Q3AM3UQ867SPQQA43P2F",
+          "secret": "zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG"
+        },
+        "buckets": {
+          "bimed": {
+            "name": "bi-test"
+          }
+        }
+      }
+    }
+  },
+  "nodemailer": {
+    "host": "",
+    "user": "",
+    "pass": ""
+  },
+  "nikita": {
+    "url": "https://smspro.nikita.kg/api/message",
+    "login": "rahatm",
+    "password": "bimed2020",
+    "sender": "BIMED Pharm"
+  }
+}

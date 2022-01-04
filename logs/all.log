@@ -1,0 +1,785 @@
+2021-09-23 18:41:01:411 [32minfo[39m: [32minitializing app ...[39m
+2021-09-23 18:41:01:411 [32minfo[39m: [32mestablishing app 3rd-party connections ...[39m
+2021-09-23 18:41:01:411 [32minfo[39m: [32mstarting app workers ...[39m
+2021-09-23 18:41:01:411 [32minfo[39m: [32mserver is running on port: 8080 | url: http://localhost:8080[39m
+2021-09-23 18:41:05:415 [32minfo[39m: [32msuccessfully connected to 'bimed production' atlas mongodb[39m
+2021-09-23 18:42:16:4216 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-23 18:42:16:4216 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:42:16:4216 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:42:16:4216 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:42:16:4216 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:42:16:4216 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:42:16:4216 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:42:16:4216 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:42:16:4216 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:42:16:4216 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:42:16:4216 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-23 18:42:16:4216 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:42:16:4216 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:42:16:4216 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:42:16:4216 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-23 18:42:16:4216 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:42:16:4216 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:42:16:4216 [32minfo[39m: [32m[method: "GET"] [path: "/api/auth"] [status code: 200]  [message: "you are logged in"][39m
+2021-09-23 18:42:16:4216 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/auth"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:42:16:4216 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-23 18:42:16:4216 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:42:16:4216 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-23 18:42:16:4216 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:42:21:4221 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-23 18:42:22:4222 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:43:24:4324 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-23 18:43:24:4324 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:43:24:4324 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:43:24:4324 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:43:24:4324 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:43:24:4324 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:43:24:4324 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:43:24:4324 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:43:24:4324 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:43:24:4324 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:43:24:4324 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-23 18:43:24:4324 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:43:24:4324 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-23 18:43:24:4324 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:43:24:4324 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:43:24:4324 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:43:24:4324 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:43:24:4324 [32minfo[39m: [32m[method: "GET"] [path: "/api/auth"] [status code: 200]  [message: "you are logged in"][39m
+2021-09-23 18:43:24:4324 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/auth"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:43:24:4324 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-23 18:43:24:4324 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:43:24:4324 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-23 18:43:24:4324 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:43:30:4330 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-23 18:43:31:4331 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:44:35:4435 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-23 18:44:35:4435 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:44:35:4435 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-23 18:44:35:4435 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6962b60498166f5f2e3e"]  [39m
+2021-09-23 18:44:35:4435 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6962b60498166f5f2e3e"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:44:35:4435 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/614c6962b60498166f5f2e3e"]  [39m
+2021-09-23 18:44:36:4436 [32minfo[39m: [32m[method: "GET"] [path: "/api/auth"] [status code: 200]  [message: "you are logged in"][39m
+2021-09-23 18:44:36:4436 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/auth"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:44:36:4436 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/614c6962b60498166f5f2e3e"] [status code: 200]  [message: "medicine successfully retrieved"][39m
+2021-09-23 18:44:36:4436 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/614c6962b60498166f5f2e3e"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:44:48:4448 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BF%D1%80%D0%BE%D1%84&limit=15&skip=0"]  [39m
+2021-09-23 18:44:48:4448 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BF%D1%80%D0%BE%D1%84&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:44:48:4448 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BF%D1%80%D0%BE%D1%84&limit=15&skip=0"]  [39m
+2021-09-23 18:44:48:4448 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%9D%D0%B0%D0%BF%D1%80%D0%BE%D1%84&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:44:48:4448 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BF%D1%80%D0%BE%D1%84&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:44:56:4456 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [39m
+2021-09-23 18:44:56:4456 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:44:56:4456 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [39m
+2021-09-23 18:44:56:4456 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:44:56:4456 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:29:4529 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BC&limit=15&skip=0"]  [39m
+2021-09-23 18:45:29:4529 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BC&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:29:4529 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BC&limit=15&skip=0"]  [39m
+2021-09-23 18:45:29:4529 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%9D%D0%B0%D0%BC&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:45:29:4529 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BC&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:34:4534 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BC%D0%BE%D0%BA&limit=15&skip=0"]  [39m
+2021-09-23 18:45:34:4534 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BC%D0%BE%D0%BA&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:34:4534 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BC%D0%BE%D0%BA&limit=15&skip=0"]  [39m
+2021-09-23 18:45:34:4534 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%9D%D0%B0%D0%BC%D0%BE%D0%BA&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:45:34:4534 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BC%D0%BE%D0%BA&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:36:4536 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:45:36:4536 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:36:4536 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:45:36:4536 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:36:4536 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:45:36:4536 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:45:36:4536 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:45:36:4536 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:36:4536 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:45:36:4536 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:36:4536 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:45:36:4536 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-23 18:45:36:4536 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:45:36:4536 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:45:37:4537 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-23 18:45:37:4537 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:45:37:4537 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-23 18:45:37:4537 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:45:41:4541 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-23 18:45:41:4541 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:45:55:4555 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BA%D0%BE%D0%BC&limit=15&skip=0"]  [39m
+2021-09-23 18:45:55:4555 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BA%D0%BE%D0%BC&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:55:4555 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BA%D0%BE%D0%BC&limit=15&skip=0"]  [39m
+2021-09-23 18:45:55:4555 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%9D%D0%B0%D0%BA%D0%BE%D0%BC&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:45:55:4555 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BA%D0%BE%D0%BC&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:59:4559 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:45:59:4559 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:59:4559 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:45:59:4559 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:45:59:4559 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:59:4559 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:45:59:4559 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:59:4559 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:45:59:4559 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:45:59:4559 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:45:59:4559 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:45:59:4559 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:45:59:4559 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-23 18:45:59:4559 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:45:59:4559 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-23 18:45:59:4559 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:45:59:4559 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-23 18:45:59:4559 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:46:09:469 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-23 18:46:09:469 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:46:13:4613 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%BD%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [39m
+2021-09-23 18:46:13:4613 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%BD%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:46:13:4613 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%BD%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [39m
+2021-09-23 18:46:14:4614 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%BD%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:46:14:4614 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%BD%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:46:21:4621 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [39m
+2021-09-23 18:46:21:4621 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:46:21:4621 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [39m
+2021-09-23 18:46:21:4621 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:46:21:4621 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:46:25:4625 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:46:25:4625 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:46:25:4625 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:46:25:4625 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:46:25:4625 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:46:25:4625 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:46:25:4625 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:46:25:4625 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:46:25:4625 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:46:25:4625 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:46:25:4625 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:46:25:4625 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-23 18:46:25:4625 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:46:25:4625 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:46:25:4625 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-23 18:46:25:4625 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:46:25:4625 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-23 18:46:25:4625 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:46:44:4644 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-23 18:46:44:4644 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:47:25:4725 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82&limit=15&skip=0"]  [39m
+2021-09-23 18:47:25:4725 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:47:25:4725 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82&limit=15&skip=0"]  [39m
+2021-09-23 18:47:25:4725 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%9D%D0%B0%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:47:25:4725 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:47:28:4728 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%BD%D0%B0%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82&limit=15&skip=0"]  [39m
+2021-09-23 18:47:28:4728 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%BD%D0%B0%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:47:28:4728 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%BD%D0%B0%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82&limit=15&skip=0"]  [39m
+2021-09-23 18:47:29:4729 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%BD%D0%B0%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:47:29:4729 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%BD%D0%B0%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%81%D1%82&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:50:57:5057 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%90%D1%81%D0%BF%D0%B8%D1%80%D0%B8%D0%BD&limit=15&skip=0"]  [39m
+2021-09-23 18:50:57:5057 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%90%D1%81%D0%BF%D0%B8%D1%80%D0%B8%D0%BD&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:50:57:5057 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%90%D1%81%D0%BF%D0%B8%D1%80%D0%B8%D0%BD&limit=15&skip=0"]  [39m
+2021-09-23 18:50:57:5057 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%90%D1%81%D0%BF%D0%B8%D1%80%D0%B8%D0%BD&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:50:57:5057 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%90%D1%81%D0%BF%D0%B8%D1%80%D0%B8%D0%BD&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:07:517 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:07:517 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:07:517 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:07:517 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:07:517 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:11:5111 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=1"]  [39m
+2021-09-23 18:51:11:5111 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=1"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:11:5111 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=1"]  [39m
+2021-09-23 18:51:11:5111 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=1"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:11:5111 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=1"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:14:5114 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=2"]  [39m
+2021-09-23 18:51:14:5114 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=2"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:14:5114 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=2"]  [39m
+2021-09-23 18:51:15:5115 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=2"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:15:5115 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=2"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:17:5117 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=1"]  [39m
+2021-09-23 18:51:17:5117 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=1"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:17:5117 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=1"]  [39m
+2021-09-23 18:51:17:5117 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:17:5117 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:17:5117 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:17:5117 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=1"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:17:5117 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=1"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:51:18:5118 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:18:5118 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:51:26:5126 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:26:5126 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:26:5126 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:26:5126 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:26:5126 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:29:5129 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:29:5129 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:29:5129 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:30:5130 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:30:5130 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:31:5131 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:31:5131 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:31:5131 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:31:5131 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:31:5131 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:51:34:5134 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:34:5134 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:34:5134 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:34:5134 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:34:5134 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:34:5134 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:34:5134 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:34:5134 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:51:35:5135 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:35:5135 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:35:5135 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:51:36:5136 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:36:5136 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:51:40:5140 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:40:5140 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:40:5140 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:41:5141 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:41:5141 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?price=asc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:51:47:5147 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:47:5147 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:51:47:5147 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:51:48:5148 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:51:48:5148 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:54:29:5429 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%92%D0%B8%D1%82%D0%B0%D0%BC%D0%B8%D0%BD%D1%8B&limit=15&skip=0"]  [39m
+2021-09-23 18:54:29:5429 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%92%D0%B8%D1%82%D0%B0%D0%BC%D0%B8%D0%BD%D1%8B&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:54:29:5429 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%92%D0%B8%D1%82%D0%B0%D0%BC%D0%B8%D0%BD%D1%8B&limit=15&skip=0"]  [39m
+2021-09-23 18:54:30:5430 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?price=desc&category=%D0%92%D0%B8%D1%82%D0%B0%D0%BC%D0%B8%D0%BD%D1%8B&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:54:30:5430 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%92%D0%B8%D1%82%D0%B0%D0%BC%D0%B8%D0%BD%D1%8B&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:54:32:5432 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%A1%D0%B8%D1%80%D0%BE%D0%BF%D1%8B&limit=15&skip=0"]  [39m
+2021-09-23 18:54:32:5432 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%A1%D0%B8%D1%80%D0%BE%D0%BF%D1%8B&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:54:32:5432 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%A1%D0%B8%D1%80%D0%BE%D0%BF%D1%8B&limit=15&skip=0"]  [39m
+2021-09-23 18:54:32:5432 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?price=desc&category=%D0%A1%D0%B8%D1%80%D0%BE%D0%BF%D1%8B&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:54:32:5432 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%A1%D0%B8%D1%80%D0%BE%D0%BF%D1%8B&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:54:34:5434 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:54:34:5434 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:54:34:5434 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [39m
+2021-09-23 18:54:36:5436 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:54:36:5436 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?price=desc&category=%D0%9B%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0&limit=15&skip=0"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:54:44:5444 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:54:44:5444 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:54:44:5444 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:54:44:5444 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:54:44:5444 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:54:44:5444 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:54:44:5444 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:54:44:5444 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:54:44:5444 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:54:44:5444 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:54:44:5444 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:54:44:5444 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:54:44:5444 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-23 18:54:44:5444 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:54:44:5444 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-23 18:54:44:5444 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:54:45:5445 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-23 18:54:45:5445 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:54:54:5454 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-23 18:54:54:5454 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:00:560 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6955b60498166f5f2e2c"]  [39m
+2021-09-23 18:56:00:560 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6955b60498166f5f2e2c"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:00:560 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/614c6955b60498166f5f2e2c"]  [39m
+2021-09-23 18:56:00:560 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/614c6955b60498166f5f2e2c"] [status code: 200]  [message: "medicine successfully retrieved"][39m
+2021-09-23 18:56:00:560 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/614c6955b60498166f5f2e2c"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:06:566 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-23 18:56:06:566 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:06:566 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-23 18:56:06:566 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6955b60498166f5f2e2c"]  [39m
+2021-09-23 18:56:06:566 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6955b60498166f5f2e2c"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:06:566 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/614c6955b60498166f5f2e2c"]  [39m
+2021-09-23 18:56:07:567 [32minfo[39m: [32m[method: "GET"] [path: "/api/auth"] [status code: 200]  [message: "you are logged in"][39m
+2021-09-23 18:56:07:567 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/auth"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:56:07:567 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/614c6955b60498166f5f2e2c"] [status code: 200]  [message: "medicine successfully retrieved"][39m
+2021-09-23 18:56:07:567 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/614c6955b60498166f5f2e2c"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:56:18:5618 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:56:18:5618 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:18:5618 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:56:18:5618 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:18:5618 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:56:18:5618 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:18:5618 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:56:18:5618 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:18:5618 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:56:18:5618 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:56:18:5618 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:56:18:5618 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-23 18:56:18:5618 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:56:18:5618 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:56:18:5618 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-23 18:56:18:5618 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:56:18:5618 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-23 18:56:18:5618 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:56:27:5627 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-23 18:56:27:5627 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:56:30:5630 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-23 18:56:30:5630 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:30:5630 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-23 18:56:31:5631 [32minfo[39m: [32m[method: "GET"] [path: "/api/auth"] [status code: 200]  [message: "you are logged in"][39m
+2021-09-23 18:56:31:5631 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/auth"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:56:34:5634 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:56:34:5634 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:34:5634 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:56:34:5634 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:34:5634 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:56:34:5634 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:56:34:5634 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:56:34:5634 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:34:5634 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:56:34:5634 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:56:34:5634 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:56:34:5634 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-23 18:56:34:5634 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:56:34:5634 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:56:34:5634 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-23 18:56:34:5634 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:56:35:5635 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-23 18:56:35:5635 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:56:40:5640 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-23 18:56:40:5640 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:57:20:5720 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c69c6b60498166f5f2eb9"]  [39m
+2021-09-23 18:57:20:5720 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c69c6b60498166f5f2eb9"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:20:5720 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/614c69c6b60498166f5f2eb9"]  [39m
+2021-09-23 18:57:21:5721 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/614c69c6b60498166f5f2eb9"] [status code: 200]  [message: "medicine successfully retrieved"][39m
+2021-09-23 18:57:21:5721 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/614c69c6b60498166f5f2eb9"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:29:5729 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:57:29:5729 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:29:5729 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:57:29:5729 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:57:29:5729 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:29:5729 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:57:29:5729 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:29:5729 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:57:29:5729 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:29:5729 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:57:29:5729 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:57:29:5729 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-23 18:57:29:5729 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:57:29:5729 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:57:29:5729 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-23 18:57:29:5729 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:57:29:5729 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-23 18:57:29:5729 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:57:38:5738 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-23 18:57:38:5738 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:47:5747 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6a82ce2bd8174d47f638"]  [39m
+2021-09-23 18:57:47:5747 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6a82ce2bd8174d47f638"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:47:5747 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/614c6a82ce2bd8174d47f638"]  [39m
+2021-09-23 18:57:47:5747 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/614c6a82ce2bd8174d47f638"] [status code: 200]  [message: "medicine successfully retrieved"][39m
+2021-09-23 18:57:47:5747 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/614c6a82ce2bd8174d47f638"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:59:5759 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:57:59:5759 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:59:5759 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:57:59:5759 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:57:59:5759 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:59:5759 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:57:59:5759 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:59:5759 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:57:59:5759 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:57:59:5759 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:57:59:5759 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:57:59:5759 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:57:59:5759 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-23 18:57:59:5759 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:57:59:5759 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-23 18:57:59:5759 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:58:00:580 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-23 18:58:00:580 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:58:05:585 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-23 18:58:05:585 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:58:19:5819 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [39m
+2021-09-23 18:58:19:5819 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:58:19:5819 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [39m
+2021-09-23 18:58:20:5820 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/614c6976b60498166f5f2e5c"] [status code: 200]  [message: "medicine successfully retrieved"][39m
+2021-09-23 18:58:20:5820 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:58:50:5850 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:58:50:5850 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:58:50:5850 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:58:50:5850 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:58:50:5850 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:58:50:5850 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:58:50:5850 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:58:50:5850 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:58:50:5850 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:58:50:5850 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-23 18:58:50:5850 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:58:50:5850 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:58:50:5850 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:58:50:5850 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:58:50:5850 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-23 18:58:50:5850 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:58:50:5850 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-23 18:58:50:5850 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:58:57:5857 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-23 18:58:57:5857 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:59:06:596 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%A0%D0%B8%D0%BD%D0%BE%D1%80%D1%83%D1%81&limit=15&skip=0"]  [39m
+2021-09-23 18:59:06:596 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%A0%D0%B8%D0%BD%D0%BE%D1%80%D1%83%D1%81&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:59:06:596 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%A0%D0%B8%D0%BD%D0%BE%D1%80%D1%83%D1%81&limit=15&skip=0"]  [39m
+2021-09-23 18:59:06:596 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%A0%D0%B8%D0%BD%D0%BE%D1%80%D1%83%D1%81&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:59:06:596 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%A0%D0%B8%D0%BD%D0%BE%D1%80%D1%83%D1%81&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:59:11:5911 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [39m
+2021-09-23 18:59:11:5911 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:59:11:5911 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [39m
+2021-09-23 18:59:12:5912 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:59:12:5912 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B0%D1%84%D1%82%D0%B8%D0%B7%D0%B8%D0%BD&limit=15&skip=0"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:59:17:5917 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:59:17:5917 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:59:17:5917 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-23 18:59:17:5917 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:59:17:5917 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:59:17:5917 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:59:17:5917 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:59:17:5917 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:59:17:5917 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:59:17:5917 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-23 18:59:17:5917 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-23 18:59:17:5917 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-23 18:59:17:5917 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:59:17:5917 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-23 18:59:17:5917 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-23 18:59:17:5917 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:59:17:5917 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-23 18:59:17:5917 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:59:29:5929 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-23 18:59:29:5929 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 18:59:36:5936 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B5%D0%B1%D0%B8%D0%BB%D0%B5%D1%82&limit=15&skip=0"]  [39m
+2021-09-23 18:59:36:5936 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B5%D0%B1%D0%B8%D0%BB%D0%B5%D1%82&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:59:36:5936 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B5%D0%B1%D0%B8%D0%BB%D0%B5%D1%82&limit=15&skip=0"]  [39m
+2021-09-23 18:59:37:5937 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine?name=%D0%9D%D0%B5%D0%B1%D0%B8%D0%BB%D0%B5%D1%82&limit=15&skip=0"] [status code: 200]  [message: "medicines successfully retrieved"][39m
+2021-09-23 18:59:37:5937 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine?name=%D0%9D%D0%B5%D0%B1%D0%B8%D0%BB%D0%B5%D1%82&limit=15&skip=0"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:59:38:5938 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [39m
+2021-09-23 18:59:38:5938 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 18:59:38:5938 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [39m
+2021-09-23 18:59:39:5939 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/614c6976b60498166f5f2e5c"] [status code: 200]  [message: "medicine successfully retrieved"][39m
+2021-09-23 18:59:39:5939 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 19:00:34:034 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-23 19:00:34:034 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 19:00:34:034 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-23 19:00:34:034 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [39m
+2021-09-23 19:00:34:034 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-23 19:00:34:034 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [39m
+2021-09-23 19:00:34:034 [32minfo[39m: [32m[method: "GET"] [path: "/api/auth"] [status code: 200]  [message: "you are logged in"][39m
+2021-09-23 19:00:34:034 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/auth"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-23 19:00:34:034 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/614c6976b60498166f5f2e5c"] [status code: 200]  [message: "medicine successfully retrieved"][39m
+2021-09-23 19:00:34:034 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-24 10:34:06:346 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-24 10:34:06:346 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-24 10:34:06:346 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-24 10:34:06:346 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [39m
+2021-09-24 10:34:06:346 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-24 10:34:06:346 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [39m
+2021-09-24 10:34:08:348 [32minfo[39m: [32m[method: "GET"] [path: "/api/auth"] [status code: 200]  [message: "you are logged in"][39m
+2021-09-24 10:34:08:348 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/auth"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-24 10:34:08:348 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/614c6976b60498166f5f2e5c"] [status code: 200]  [message: "medicine successfully retrieved"][39m
+2021-09-24 10:34:08:348 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/614c6976b60498166f5f2e5c"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-24 10:34:09:349 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-24 10:34:09:349 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-24 10:34:09:349 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-24 10:34:09:349 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-24 10:34:09:349 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-09-24 10:34:09:349 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-09-24 10:34:09:349 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-24 10:34:09:349 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-24 10:34:09:349 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-24 10:34:09:349 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-24 10:34:09:349 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-09-24 10:34:09:349 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-09-24 10:34:09:349 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-24 10:34:09:349 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-09-24 10:34:09:349 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-09-24 10:34:09:349 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-24 10:34:09:349 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-09-24 10:34:09:349 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-24 10:34:16:3416 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-09-24 10:34:16:3416 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-24 10:36:47:3647 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6bb2ce2bd8174d47f7ac"]  [39m
+2021-09-24 10:36:47:3647 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6bb2ce2bd8174d47f7ac"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-24 10:36:47:3647 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/614c6bb2ce2bd8174d47f7ac"]  [39m
+2021-09-24 10:36:48:3648 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/614c6bb2ce2bd8174d47f7ac"] [status code: 200]  [message: "medicine successfully retrieved"][39m
+2021-09-24 10:36:48:3648 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/614c6bb2ce2bd8174d47f7ac"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-24 10:36:59:3659 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-24 10:36:59:3659 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-24 10:36:59:3659 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/auth"]  [39m
+2021-09-24 10:36:59:3659 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6bb2ce2bd8174d47f7ac"]  [39m
+2021-09-24 10:36:59:3659 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/614c6bb2ce2bd8174d47f7ac"]  [status code: "200"] OK [39m
+[36m[39m
+2021-09-24 10:36:59:3659 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/614c6bb2ce2bd8174d47f7ac"]  [39m
+2021-09-24 10:36:59:3659 [32minfo[39m: [32m[method: "GET"] [path: "/api/auth"] [status code: 200]  [message: "you are logged in"][39m
+2021-09-24 10:36:59:3659 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/auth"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-09-24 10:36:59:3659 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/614c6bb2ce2bd8174d47f7ac"] [status code: 200]  [message: "medicine successfully retrieved"][39m
+2021-09-24 10:36:59:3659 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/614c6bb2ce2bd8174d47f7ac"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-10-12 18:12:07:127 [32minfo[39m: [32minitializing app ...[39m
+2021-10-12 18:12:07:127 [32minfo[39m: [32mestablishing app 3rd-party connections ...[39m
+2021-10-12 18:12:07:127 [32minfo[39m: [32mstarting app workers ...[39m
+2021-10-12 18:12:07:127 [32minfo[39m: [32mserver is running on port: 8080 | url: http://localhost:8080[39m
+2021-10-12 18:12:12:1212 [32minfo[39m: [32msuccessfully connected to 'bimed production' atlas mongodb[39m
+2021-10-12 18:12:48:1248 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [39m
+2021-10-12 18:12:48:1248 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-12 18:12:48:1248 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-10-12 18:12:48:1248 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-12 18:12:48:1248 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-10-12 18:12:48:1248 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-12 18:12:48:1248 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-10-12 18:12:48:1248 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-12 18:12:48:1248 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-10-12 18:12:48:1248 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-12 18:12:48:1248 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/auth"]  [39m
+2021-10-12 18:12:48:1248 [31merror[39m: [31m[method: "GET"] [path: "/api/auth"] [status code: 401]  [error: "you are not authenticated"][39m
+2021-10-12 18:12:48:1248 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/auth"]  [status code: "401"] Unauthorized [39m
+[36m[39m
+2021-10-12 18:12:48:1248 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-10-12 18:12:48:1248 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-10-12 18:12:48:1248 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-10-12 18:12:48:1248 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-10-12 18:12:48:1248 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-10-12 18:12:48:1248 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-12 18:12:48:1248 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-10-12 18:12:48:1248 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-12 18:12:48:1248 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-10-12 18:12:48:1248 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-12 18:12:52:1252 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-10-12 18:12:52:1252 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-13 11:25:49:2549 [32minfo[39m: [32minitializing app ...[39m
+2021-10-13 11:25:49:2549 [32minfo[39m: [32mestablishing app 3rd-party connections ...[39m
+2021-10-13 11:25:49:2549 [32minfo[39m: [32mstarting app workers ...[39m
+2021-10-13 11:25:49:2549 [32minfo[39m: [32mserver is running on port: 8080 | url: http://localhost:8080[39m
+2021-10-13 11:25:52:2552 [32minfo[39m: [32msuccessfully connected to 'bimed production' atlas mongodb[39m
+2021-10-13 17:37:30:3730 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [39m
+2021-10-13 17:37:30:3730 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/auth"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-13 17:37:30:3730 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-10-13 17:37:30:3730 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/banner?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-13 17:37:30:3730 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-10-13 17:37:30:3730 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-13 17:37:30:3730 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/auth"]  [39m
+2021-10-13 17:37:30:3730 [31merror[39m: [31m[method: "GET"] [path: "/api/auth"] [status code: 401]  [error: "you are not authenticated"][39m
+2021-10-13 17:37:30:3730 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/auth"]  [status code: "401"] Unauthorized [39m
+[36m[39m
+2021-10-13 17:37:30:3730 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/banner?"]  [39m
+2021-10-13 17:37:30:3730 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-10-13 17:37:30:3730 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-13 17:37:31:3731 [35mhttpREQ[39m: [35mREQ:  [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-10-13 17:37:31:3731 [36mhttpRES[39m: [36mRES: [method: "OPTIONS"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-13 17:37:31:3731 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [39m
+2021-10-13 17:37:31:3731 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [39m
+2021-10-13 17:37:31:3731 [35mhttpREQ[39m: [35mREQ:  [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [39m
+2021-10-13 17:37:31:3731 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/onSales?"] [status code: 200]  [message: "on sales medicines successfully retrieved"][39m
+2021-10-13 17:37:31:3731 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/onSales?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-10-13 17:37:33:3733 [32minfo[39m: [32m[method: "GET"] [path: "/api/banner?"] [status code: 200]  [message: "banners successfully retrieved"][39m
+2021-10-13 17:37:33:3733 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/banner?"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-10-13 17:37:33:3733 [32minfo[39m: [32m[method: "GET"] [path: "/api/news?limit=8"] [status code: 200]  [message: "news successfully retrieved"][39m
+2021-10-13 17:37:33:3733 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/news?limit=8"]  [status code: "304"] Not Modified [39m
+[36m[39m
+2021-10-13 17:37:46:3746 [32minfo[39m: [32m[method: "GET"] [path: "/api/medicine/topSelling?limit=10"] [status code: 200]  [message: "top selling medicines successfully retrieved"][39m
+2021-10-13 17:37:47:3747 [36mhttpRES[39m: [36mRES: [method: "GET"]  [path: "localhost:8080/api/medicine/topSelling?limit=10"]  [status code: "200"] OK [39m
+[36m[39m
+2021-10-14 11:25:19:2519 [31merror[39m: [31m1C:INTEGRATION:DIALY CYCLE: 14.10.2021, 11:25:18[39m
+2021-10-14 11:25:26:2526 [32minfo[39m: [32m1C:INTEGRATION: started[39m
+2021-10-14 11:25:26:2526 [31merror[39m: [31m1C:INTEGRATION:ERROR: ENOENT: no such file or directory, open 'C:\Users\nurbe\OneDrive\Рабочий стол\asd-back\private\1c-integration\medicines.xlsx'[39m
